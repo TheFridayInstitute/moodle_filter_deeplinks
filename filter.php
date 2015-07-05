@@ -42,7 +42,7 @@ class filter_deeplinks extends moodle_text_filter {
         // is unlikely that we'll find any suitable links within these areas so for
         // now this part has been left unfinished.
 
-        $search = "[[[[[[[todo]]]]]]]";
+        $search = "\[\[(deeplink).*?\]\]";
         $text = preg_replace_callback($search, array($this, 'callback'), $text);
 
         return $text;
