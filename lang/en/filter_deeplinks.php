@@ -18,8 +18,8 @@
 /**
  *
  * @package    filter
- * @subpackage fontawesome
- * @copyright  2013 Julian Ridden <julian@moodleman.net>
+ * @subpackage deeplinks
+ * @copyright  2015 Mark Samberg <mjsamber@ncsu.edu>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
